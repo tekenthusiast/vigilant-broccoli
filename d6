@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
    26  yum install git
    27  mkdir /tmp/
@@ -25,3 +26,38 @@
    49  touch devopsfile
    50  ls
 
+=======
+[root@ip-172-31-29-125 repo]# git checkout pat6
+Switched to branch 'pat6'
+[root@ip-172-31-29-125 repo]# git push -u origin pat6
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:vams522675/vigilant-broccoli.git
+ * [new branch]      pat6 -> pat6
+Branch pat6 set up to track remote branch pat6 from origin.
+[root@ip-172-31-29-125 repo]# git branch
+  master
+  pat1
+  pat2
+  pat3
+  pat4
+  pat5
+* pat6
+[root@ip-172-31-29-125 repo]# ls -a
+.  ..  d1  d2  d3  d4  d5  d6  .git  README.md[root@ip-172-31-29-125 repo]# git checkout pat6
+Switched to branch 'pat6'
+[root@ip-172-31-29-125 repo]# git push -u origin pat6
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:vams522675/vigilant-broccoli.git
+ * [new branch]      pat6 -> pat6
+Branch pat6 set up to track remote branch pat6 from origin.
+[root@ip-172-31-29-125 repo]# git branch
+  master
+  pat1
+  pat2
+  pat3
+  pat4
+  pat5
+* pat6
+[root@ip-172-31-29-125 repo]# ls -a
+.  ..  d1  d2  d3  d4  d5  d6  .git  README.md
+>>>>>>> pat6
