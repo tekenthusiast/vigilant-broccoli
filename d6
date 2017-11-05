@@ -1,0 +1,27 @@
+
+   26  yum install git
+   27  mkdir /tmp/
+   28  mkdir /tmp/ye
+   29  cd  /tmp/ye
+   30  ls
+   31  git init
+   32  git push -u origin master
+   33  echo "# peter" >> README.md
+   34  git init
+   35  git add README.md
+   36  git commit -m "first commit"
+   37  git remote add origin git@github.com:vams522675/peter.git
+   38  git push -u origin master
+   39  gti branch
+   40  git branch
+   41  git branch devops
+   42  git branch
+   43  git checkout devops
+   44  git branch
+   45  l
+   46  ls
+   47  git branch
+   48  ls
+   49  touch devopsfile
+   50  ls
+
